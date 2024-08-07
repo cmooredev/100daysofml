@@ -1,0 +1,8 @@
+env/
+.venv/
+
+#jupyter notebook
+.ipynb_checkpoints/
+
+#python files
+__pycache__/
