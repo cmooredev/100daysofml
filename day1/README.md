@@ -31,7 +31,7 @@ return image[:,::-1]
 Return all rows and reversed columns.
 
 ### Edge Detection
-Using sobel_x and sobel_y kernels, we can use the convole function for edge detection along either the x or y axis. 
+Using sobel_x and sobel_y kernels, we can use the convolve function for edge detection along either the x or y axis. 
 
 The function takes an image, pads it so the kernels can fit the edges, and then iterates over each pixel value, extracting a region that matches the given kernel. We multiply the region with the kernel and sum the results to produce a new pixel value.
 
