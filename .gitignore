@@ -7,3 +7,6 @@ env/
 #python files
 __pycache__/
 .DS_Store
+
+#CSV
+*.csv
